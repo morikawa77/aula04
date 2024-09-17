@@ -1,0 +1,46 @@
+body {
+  background-color: #CCCCCC;
+}
+
+.div1 {
+  width:400px;
+  height: 200px;
+  padding: 10px;
+  border: 5px solid #000000;
+  margin: 10px;
+  background-color: #FF00FF;
+}
+
+.div2 {
+  width:400px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid #000000;
+  background-color: #FF00FF;
+}
+
+.div3 {
+  width:400px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid #000000;
+  background-color: #FF00FF;
+  box-sizing: border-box;
+}
+
+.div4 {
+  width:400px;
+  height: 200px;
+  padding: 10px;
+  border: 5px solid #000000;
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: #FF00FF;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

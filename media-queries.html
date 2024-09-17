@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Media Queries</title>
+</head>
+
+<body>
+  <h1>CSS</h1>
+
+  <a href="box-sizing.html">Box Sizing</a>
+  <a href="flexbox-grid.html">Flexbox & Grid</a>
+  <a href="fonts-sizes-colors.html">Fonts, Sizes & Colors</a>
+  <a href="media-queries.html">Media queries</a>
+  <a href="animations-transitions.html">Animations & Transitions</a>
+
+  <h2>Media Queries</h2>
+  <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="XWLLmBL"
+    data-pen-title="Untitled" data-user="morikawa77"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/morikawa77/pen/XWLLmBL">
+        Untitled</a> by Reginaldo Morikawa (<a href="https://codepen.io/morikawa77">@morikawa77</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <h2>Responsive Images</h2>
+  <picture>
+    <!-- Use this image if the screen is at least 800px wide -->
+    <source srcset="https://placehold.co/600x400" media="(min-width: 800px)">
+    <!-- Use this image if the screen is at least 600px wide -->
+    <source srcset="https://placehold.co/350" media="(min-width: 600px)">
+
+    <!-- Use this image if nothing matches -->
+    <img src="https://placehold.co/200" alt="A calico cat with dark aviator sunglasses.">
+  </picture>
+</body>
+
+</html>
